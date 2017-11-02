@@ -132,6 +132,16 @@
 
 
 
+<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery-lazyload/1.9.5/jquery.lazyload.min.js"></script>
+    <script type="text/javascript">
+      jQuery(function() {          
+          jQuery("#posts img").lazyload({
+            placeholder:"http://github.com/Primers-cern/Primers-cern.github.io/blob/master/images/searchicon.png?raw=true",
+              effect:"fadeIn",
+              threshold : 300
+            });
+          });
+    </script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
