@@ -311,13 +311,13 @@
         
           
             <p>网页展示 ———— <a href="http://primerscern.xyz/rating-demo" target="_blank" rel="external">http://primerscern.xyz/rating-demo</a><br>项目地址 ———— <a href="https://github.com/Primers-cern/rating-demo" target="_blank" rel="external">https://github.com/Primers-cern/rating-demo</a></p>
-<h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h4><ul>
-<li><strong>实现点亮星星的实时动画和交互，包括默认点亮星星，鼠标滑过点亮星星，鼠标点击后记住星星个数，同时冻结交互。纯JS实现，使用了两种设计模式，代码中运用了继承、闭包、单例等方法。</strong></li>
-<li><strong>Light</strong><br>该方法使用了模板方法模式设计。<br><br>实现原理和思路：<br><br>首先，文档结构为无序列表，每个子选项为一个星星，并通过改变背景图片来点亮星星。<br><br>其次，该方法实现了整颗星星和半颗星星的逻辑模式，抽象出父类，通过继承父类方法实现交互。<br></li>
-<li><strong>Light-ChangeWidth</strong><br>该方法使用了策略模式设计模式。<br><br>实现原理和思路：<br><br>首先，文档结构为两个重叠的展示框，分别为灭星层和亮星层，通过控制元素宽度点亮星星。<br><br>其次，通过策略模式设计实现分割单个星星，无论是一个，半个，三分一，四分一都行！<br></li>
+<h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h4><p><strong>实现点亮星星的实时动画和交互，包括默认点亮星星，鼠标滑过点亮星星，鼠标点击后记住星星个数，同时冻结交互。纯JS实现，使用了两种设计模式，代码中运用了继承、闭包、单例等方法。</strong></p>
+<ul>
+<li><strong>Light</strong><br>该方法使用了模板方法模式设计。<br>实现原理和思路：<br>首先，文档结构为无序列表，每个子选项为一个星星，并通过改变背景图片来点亮星星。<br>其次，该方法实现了整颗星星和半颗星星的逻辑模式，抽象出父类，通过继承父类方法实现交互。</li>
+<li><strong>Light-ChangeWidth</strong><br>该方法使用了策略模式设计模式。<br>实现原理和思路：<br>首先，文档结构为两个重叠的展示框，分别为灭星层和亮星层，通过控制元素宽度点亮星星。<br>其次，通过策略模式设计实现分割单个星星，无论是一个，半个，三分一，四分一都行！</li>
 </ul>
 <p><br></p>
-<p><img src="../../../../images/小部件-星级评分-纯JS设计模式/11.gif" alt=""></p>
+<p><img src="../../../../images/小部件-星级评分-纯JS设计模式/GIF.gif" alt=""></p>
 
           
         
@@ -438,8 +438,8 @@
         
           
             <p>网页展示 ———— <a href="http://primerscern.xyz/canvas-demo/ballTime" target="_blank" rel="external">http://primerscern.xyz/canvas-demo/ballTime</a><br>项目地址 ———— <a href="https://github.com/Primers-cern/canvas-demo" target="_blank" rel="external">https://github.com/Primers-cern/canvas-demo</a></p>
-<h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h4><ul>
-<li><strong>利用canvas标签绘制圆形，排列出当前时间（类似于电子钟）</strong></li>
+<h4 id="描述："><a href="#描述：" class="headerlink" title="描述："></a>描述：</h4><p><strong>利用canvas标签绘制圆形，排列出当前时间（类似于电子钟）</strong></p>
+<ul>
 <li><strong>16 Nov - 初始版 v1.0</strong><ul>
 <li>初始功能：数字时钟</li>
 <li>①使用间隔函数每秒绘制，实现时钟变换。</li>
@@ -462,11 +462,12 @@
 <li>①添加动画开关按钮。</li>
 <li>②位于左上角的收缩标签中。</li>
 <li>③通过0/1状态判定是否执行动画语句。</li>
-<li>④关闭动画后初始化动画状态，避免重新打开后有上次的动画残余。<br>（待更新更多功能）<br><br></li>
+<li>④关闭动画后初始化动画状态，避免重新打开后有上次的动画残余。</li>
 </ul>
 </li>
 </ul>
-<p><img src="../../../../images/部件-时间管理-Canvas动画/GIF.gif" alt=""></p>
+<p>（待更新更多功能）<br><br></p>
+<p><img src="../../../../images/部件-时间管理-Canvas动画/11.gif" alt=""></p>
 
           
         
